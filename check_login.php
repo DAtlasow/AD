@@ -51,6 +51,7 @@
                 echo ("<h1>BAD LOGIN!<h1>");
             echo('<meta http-equiv="refresh" content="2; URL=login.php">');    
             }
+            //
         ?>
 
     </body>
