@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+	    <link rel= "stylesheet" href="styles/main.css" />
+	    <meta charset="utf8" />
+
+		<audio src="sound/myau1.mp3" autoplay="autoplay"></audio> 		
+		
+		<!-- Комментарий HTML		
+		-->
+
+
+		<style>
+			/* Это комментарий CSS */
+		   .picture-holder a {
+		        display: block;
+				margin-bottom: 10px;
+		   }
+		
+		</style>
+		<script>
+		   function increase_cat()  {
+			   //Комментарий скрипта
+		       document.getElementById("cat").style.width = "500px";
+			   document.getElementById("hdr1").innerText = "Мяу!";			   
+			   
+		   }		
+		   function myau() {
+			var audio = new Audio(); // Создаём новый элемент Audio onMouseover
+  			audio.src = 'myau1.mp3'; // Указываем путь к звуку "клика"
+  			audio.autoplay = true; // Автоматически запускаем
+
+		   }
+		   
+        </script>		
+		
+        <title>Кошка</title>
+
+    </head>
+	
+    <body>
+
+        <h1 id="hdr1"> Это кошка</h1>
+		<p1 onclick="myau()">Кликни по этому тексту</p1>
+
+		<div class="picture-holder">
+		   <a href="index_.html"> Оглавление сайта  </a>
+		   <img src="images/cat.jpg" onclick="increase_cat();"
+		              style= "width:400px" id="cat"/>
+					  
+		</div>
+		
+    </body>
+ 
+
+
+</html>
