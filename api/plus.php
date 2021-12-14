@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+include (getenv('MYAPP_CONFIG'));
 //Комментарий
 
 $x = $_REQUEST["x"];

@@ -27,8 +27,16 @@
                 var text = xhr.responseText;
                 var results = JSON.parse(text);
                 console.log(results);
-
-                document.getElementById("display").innerHTML = text;
+                var out = "";
+                for(var i=0; i < results.length; i++) {
+                    var calc = results[i];
+                    console.log(calc);
+                    var x = calc [1];
+                    var y = calc [2];
+                    var z = calc[3];
+                    out += "X:" + x +" Y:" + y + " Z:" + z + "<br />";
+                }
+                document.getElementById("display").innerHTML = out;
              
                 // Комментарий
             }

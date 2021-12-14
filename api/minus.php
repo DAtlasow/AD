@@ -1,4 +1,6 @@
 <?php
+session_start();
+include (getenv('MYAPP_CONFIG'));
 
 $x = $_REQUEST["x"];
 $y = $_REQUEST["y"];
