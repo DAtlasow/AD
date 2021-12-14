@@ -1,7 +1,10 @@
 <?php
     session_start();
     //подключение конфигурационного файла, желпательно делать наверху, сразу
-    include("c:/AppParams/params.php");
+    //переменная окружения! в системе Windows MYAPP_CONFIG
+
+    include("c:\\AppParams\\params.php");
+    //include("c:\\AppParams\\params.php");
 ?>
 <html>
     <head>
