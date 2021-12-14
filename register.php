@@ -5,7 +5,7 @@
     </head>
     <body>
         </body>
-        <h1>Register, please!</h1>
+        <h1>Registration!</h1>
         <form method="post">
             <input name="user" /> <br />
             <input name="pwd" type="password" /> <br />

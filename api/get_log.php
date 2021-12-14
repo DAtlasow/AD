@@ -12,13 +12,7 @@
     
     //include("c:\\AppParams\\params.php");
 ?>
-<html>
-    <head>
-        <title>
 
-        </title>
-    </head>
-    <body>
         <?php
             //оставляем уязвимость sql-injection для взлома
             $sql = "SELECT ID, Number1, Number2, Result, UserID 
@@ -64,6 +58,3 @@
             //
         ?>
 
-    </body>
-
-</html>
