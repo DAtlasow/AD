@@ -3,7 +3,8 @@
     //подключение конфигурационного файла, желпательно делать наверху, сразу
     //переменная окружения! в системе Windows MYAPP_CONFIG
 
-    include("c:\\AppParams\\params.php");
+    //echo "pass".getenv('MYAPP_CONFIG');
+    include(getenv("MYAPP_CONFIG"));
     //include("c:\\AppParams\\params.php");
 ?>
 <html>
