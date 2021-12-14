@@ -33,7 +33,8 @@
 
         </style>
 
-
+<a href="billing.php">Billing</a>
+<a href="index_.html">Индекс</a>
         <script>
             function plus(){
                 var x = document.getElementById("x").value;
